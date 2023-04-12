@@ -1,0 +1,169 @@
+html, body {
+  /* background: linear-gradient(to right, #1c2331, #4d6588, #2f3c57); */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background: #2C3D39 !important;
+  /* background: linear-gradient(90deg, rgba(50, 76, 144, 255) 0%, rgba(170, 195, 56, 255) 50%, rgba(50, 76, 144, 255) 100%); */
+}
+
+footer {
+  /* height: 60px; */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #2C3D39 !important;
+}
+
+.navbar-brand img {
+  max-height: 42px;
+  /* Ajusta el tamaño del logo */
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: aliceblue !important;
+}
+
+input.form-control:focus {
+  border-color: rgba(50, 76, 144, 255);
+  box-shadow: none;
+}
+
+.form-control {
+  border-width: 2px; /* grosor del borde */
+}
+
+.bg-custom {
+  background-color: rgba(50, 76, 144, 255);
+}
+
+
+
+/* Visibilidad del password en el form del login */
+.toggle-password {
+  display: inline-block;
+  margin-left: 62%;
+  position: relative;
+  top: -33px;
+  right: -15px;
+  cursor: pointer;
+}
+
+.toggle-password i {
+  font-size: 16px;
+  color: #333;
+}
+
+.toggle-password.active i {
+  color: #007bff;
+}
+/* ------------------------------------------------------------------------- */
+
+.card {
+  border-radius: 10%;
+  margin: 1% 17% 17% 17%;
+  
+}
+
+.card-body {
+  margin-top: 1%;
+
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+  }
+
+  .toggle-password {
+    margin-left: 55%;
+
+  }
+
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+  }
+
+  .toggle-password {
+    margin-left: 55%;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+  }
+
+  .toggle-password {
+    margin-left: 60%;
+
+  }
+}
+
+@media (max-width: 575px) {
+  .card {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10rem;
+  }
+
+  .toggle-password {
+    margin-left: 55%;
+
+  }
+}
+
+@media (max-width: 360px) {
+  .card {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5rem;
+  }
+
+  .toggle-password {
+    margin-left: 48%;
+
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+  }
+
+  .toggle-password {
+    margin-left: 55%;
+
+  }
+}
+
+@media (max-width: 412px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+  }
+
+  .toggle-password {
+    margin-left: 63%;
+
+  }
+}
